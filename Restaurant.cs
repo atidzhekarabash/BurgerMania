@@ -8,7 +8,7 @@ namespace BurgerMania
    class Restaurant
     {
 
-        public static Restaurant Instance { get; private set; }
+        private static Restaurant Instance { get; private set; }
 
         Cashier cashier;
         Chef chef;
@@ -132,4 +132,5 @@ namespace BurgerMania
 //classicB.setDescription();
 //   burger = chef.setSauces(new string[] { "k", "g" });
 // string[] sauces = { "k", "g" };
+
 //burger = chef.setSauces(sauces);
