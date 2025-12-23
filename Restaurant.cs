@@ -108,29 +108,3 @@ namespace BurgerMania
 
 
 
-
-
-/* Main -             Cashier cashier= new Cashier();
-            Chef chef = new Chef();
-
-            Restaurant.Initialize(cashier, chef);
- * 
- * private Restaurant(Cashier c, Chef ch) 
-        { 
-        }
-
-        public static void Initialize(Cashier c, Chef ch)
-        {
-            if (Instance == null)
-            {
-                Instance = new Restaurant(c, ch);
-            }
-        }*/
-
-// IBurger classicB = new ClassicBurger();
-//classicB = new Кetchup(classicB);
-//classicB.setDescription();
-//   burger = chef.setSauces(new string[] { "k", "g" });
-// string[] sauces = { "k", "g" };
-
-//burger = chef.setSauces(sauces);
